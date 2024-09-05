@@ -41,7 +41,7 @@ application is unaffected as more operations are added.
 FPGAs are designed to be programmed using Hardware Description 
 Language such as Verilog HDL or VHDL.
  
-## Components of an FPGA 
+### Components of an FPGA 
 #### • Configurable Logic Blocks
 Configurable logic blocks (CLBs) are the basic logic unit of an FPGA. A 
 CLB gives the FPGA its ability to accept different hardware 
@@ -114,7 +114,7 @@ transfers in and out of the FPGA. Used to complete the driving and
 matching requirements for input/output signals under different 
 electrical characteristics. The IO blocks are configurable depending 
 on the type of data.
-## Languages used in FPGA programming 
+### Languages used in FPGA programming 
 Hardware description language is used to assemble these FPGA 
 building blocks into a circuit that will perform a specific task. The 
 process is different from programming a GPU or CPU, since you aren’t 
@@ -126,16 +126,15 @@ Verilog. VHDL’s syntax is similar to Pascal. Verilog, however, is similar
 to C.
 ![image](https://github.com/user-attachments/assets/c1f43b3c-e707-4118-87c7-71545738970c)
 
-## Applications 
-• Designing ASICs using FPGAs
+### Applications 
+#### • Designing ASICs using FPGAs
 We can create a prototype of ASIC using FPGA and thanks to this 
 method, errors are correctable.
-• Improvements in automotive experiences
+#### • Improvements in automotive experiences
 Solutions for in-vehicle infotainment, comfort, and convenience using 
 automotive silicon and IP.
-• Supporting real-time systems
-• Aerospace and defense use cases
-• digital signal processing, biomedical instrumentation, device 
-controllers, software-defined radio, random logic, medical 
-imaging, computer hardware emulation, voice recognition, 
-cryptography, filtering and communication encoding, and more.
+#### • Supporting real-time systems
+#### • Aerospace and defense use cases
+#### • Digital signal processing, biomedical instrumentation, device controllers, software-defined radio,
+####  random logic, medical imaging, computer hardware emulation, voice recognition,
+####  cryptography, filtering and communication encoding, and more.
